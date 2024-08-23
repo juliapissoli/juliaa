@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+
+    </body>
+</html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="________" content="_______=device-width, ________=_______">
+    <title>AluraBooks</title>
+</head>
+root{
+    --cor-botao-e-titulo : #191970;
+}
+:root {
+    --cor-de-fundo: #EBECEE;
+}
+<body>
+    <header class="cabeçalho">
+        <span class="cabeçalho__menu-hamburguer"></span>
+        <img src="img/Logo.svg" alt="Logo da AluraBooks">
+    </header>
+</body>
+<label for="menu">
+    <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+  </label>
+  
+  <ul class="lista-menu">
+  </ul>
+  <ul class="lista-menu">
+    <li class="lista-menu__titulo">Categorias</li>
+    <li class="lista-menu__item">
+      <a href="#" class="lista-menu__link">Programação</a>
+    </li>
+    <li class="lista-menu__item">
+      <a href="#" class="lista-menu__link">Front-end</a>
+    </li>
+    <li class="lista-menu__item">
+      <a href="#" class="lista-menu__link">Infraestrutura</a>
+    </li>
+    <li class="lista-menu__item">
+      <a href="#" class="lista-menu__link">Business</a>
+    </li>
+    <li class="lista-menu__item">
+      <a href="#" class="lista-menu__link">Design & UX</a>
+    </li>
+  </ul>
+  .container__botao:checked ~ .lista-menu {
+    display: block;
+  }
+  .cabecalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  .lista-menu__titulo,
+.lista-menu__item {
+  padding: 1em;
+  background-color: var(--branco);
+}
+:root {
+    --cor-de-fundo: #ebecee;
+    --branco: #ffffff;
+    --laranja: #eb9b00;
+  }
+  .lista-menu__titulo {
+    color: var(--laranja);
+  }
+  --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+  :root {
+    --cor-de-fundo: #ebecee;
+    --branco: #ffffff;
+    --laranja: #eb9b00;
+    --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+  }
